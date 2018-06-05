@@ -1,5 +1,7 @@
 # qa_automation_test
-Tests written using Ruby 2.5.1
+*Tests written using Ruby 2.5.1
+
+Assumptions:  Latest version of Chromedriver and Ruby 2.5.1
 
 1. Clone repo
 2. run ```bundle install```
