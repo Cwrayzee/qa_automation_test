@@ -16,8 +16,8 @@ class RubyGemsPage < BasePage
   end
 
   def search(search_item)
-    driver.find_element(SEARCH_FIELD).send_keys search_item
-    driver.find_element(SEARCH_ICON).click
+    fill_out(SEARCH_FIELD, search_item)
+    click_on(SEARCH_ICON)
   end
 
   def first_search_result?(result)
